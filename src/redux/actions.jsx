@@ -41,9 +41,9 @@ export const filterStatus = (status)=> {
     }
 }
 
-export const filterPriorities = (priorities)=> {
+export const filterPriorities = (priorities)=> {    
     return {
-        type: filterPriorities,
+        type: FILTER_PRIORITIES,
         payload: priorities
     }
 }

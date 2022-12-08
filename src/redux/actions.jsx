@@ -20,10 +20,10 @@ export const toggleTodo = (index)=> {
     }
 }
 
-export const deleteTodo = (index)=> {
+export const deleteTodo = (todoId)=> {
     return {
         type: DELETE_TODO,
-        payload: index
+        payload: todoId
     }
 }
 
